@@ -17,7 +17,7 @@ function Articles() {
             <br />
             <br />
 
-            <Link href="/articles/facility-location">Facility Location</Link>
+            <Link href="/articles/facility_location">Facility Location</Link>
             
         </Layout>
     );

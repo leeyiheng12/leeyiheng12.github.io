@@ -1,8 +1,35 @@
-.textContent {
-    border: 1px solid red;
-    background-color: rgb(176, 176, 176);
+.articleTitle {
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
+}
+
+.textContent, .questionTextContent, .notesTextContent, .answerTextContent, .finalNotesTextContent {
     font-size: 1rem;
     padding: 1rem;
+    margin-top: 1rem;
+}
+
+.textContent {
+    background-color: rgb(176, 176, 176, 0.5);
+}
+
+.answerTextContent {
+    background-color: rgba(169, 255, 129, 0.5);
+}
+
+.questionTextContent {
+    background-color: rgba(255, 236, 179, 0.5);
+}
+
+.notesTextContent {
+    background-color: rgba(167, 240, 255, 0.5);
+}
+
+.finalNotesTextContent {
+    background-color: rgba(0, 64, 255, 0.5);
 }
 
 .heading2Xl {
